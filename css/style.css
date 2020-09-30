@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    box-sizing: border-box;
+    background: #000000;
+}
+
+h1 {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 50;
+	text-align: center;
+	margin: 15px 0 45px; 
+	font-family: 'Girassol', cursive;
+    padding-top: 100px
+}
+
+.title{
+	color: blueviolet;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 5px;
+    transition: .5s;
+    font-size: 17px;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.item{
+	padding: 10px;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 20px;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: chartreuse;
+	font-size: 20px;
+    font-family: 'Bitter', serif;;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: red;
+	font-size: 1.4rem;
+    font-family: 'Bitter', serif;
+	cursor: pointer;
+}
